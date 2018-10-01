@@ -30,23 +30,23 @@ public class SteeringArrive : MonoBehaviour {
         // before sending it to move.AccelerateMovement() clamp it to 
         // move.max_mov_acceleration
 
-        Vector3 diff = move.target.transform.position - transform.position;
+        Vector3 vel = move.target.transform.position - transform.position;
+        float dvel = vel.magnitude;
+        vel.Normalize();
 
+        Vector3 acceleration = vel * move.max_mov_acceleration;
 
-        diff /= time_to_target;
-
-        if (diff.magnitude < min_distance)
-            move.AccelerateMovement(Vector3.zero);
-
-        else if (diff.magnitude <= slow_distance)
+        if (dvel < slow_distance)
         {
-            
+            vel =  time_to_target * vel.normalized * dvel;
+
+            if (dvel < min_distance)
+                vel = Vector3.zero;
+
+            acceleration = (vel - move.movement) * move.max_mov_acceleration / dvel;
         }
 
-        diff *= move.max_mov_acceleration;
-
-        move.AccelerateMovement(diff);
-
+        move.AccelerateMovement(acceleration);
     }
 
 	void OnDrawGizmosSelected() 
