@@ -10,7 +10,8 @@ public class SteeringFollowPath : MonoBehaviour {
     private BGCcMath math;
     public GameObject path;
     Vector3 currpoint;
-    public float calcdistance = 0.1f;
+    public float calcdistance = 0.5f;
+    private uint curvepoint = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -45,6 +46,11 @@ public class SteeringFollowPath : MonoBehaviour {
 
         Vector3 distance = transform.position - currpoint;
 
+        if(distance.magnitude < calcdistance)
+        {
+            curvepoint++;
+            currpoint = math.Curve.Points[curvepoint].PositionWorld;
+        }
 
         seek.Steer(currpoint);
 	}
