@@ -10,7 +10,7 @@ public class SteeringFollowPath : MonoBehaviour {
     private BGCcMath math;
     public GameObject path;
     Vector3 currpoint;
-    public float calcdistance = 0.5f;
+    public float calcdistance = 0.1f;
     private uint curvepoint = 0;
 
 	// Use this for initialization
