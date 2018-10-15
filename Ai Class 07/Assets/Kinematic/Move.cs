@@ -41,7 +41,7 @@ public class Move : MonoBehaviour {
         }
     }
 
-	public void SetRotationVelocity (float rotation_velocity, int prio) 
+	public void SetRotationVelocity (float rotation_velocity) 
 	{
         rotation = rotation_velocity;
     }
