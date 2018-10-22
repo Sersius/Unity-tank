@@ -1,0 +1,119 @@
+Initialize engine version: 5.3.5f1 (960ebf59018a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6450 (ID=0x6779)
+    Vendor:   ATI
+    VRAM:     1008 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.054 seconds
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\sergiogr5\Documents\GitHub\Unity-tank\AI Class 10\Untitled_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.558137 ms
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 18dc -> priority: 1 
+  Thread -> id: 1e3c -> priority: 1 
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+Saw something NEW
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
+LOST something
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+
