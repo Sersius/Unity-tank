@@ -68,11 +68,19 @@ public class FSM_Alarm : MonoBehaviour {
 
     IEnumerator patrol()
     {
-        while (true)
+        StopCoroutine("spotted");
+        player_detected = false;
+        in_alarm = false;
+        while (Vector3.Distance(transform.position, patrol_pos) > 0.5f)
         {
+            destiny.destination = patrol_pos;
             Debug.Log("returning to path");
             yield return new WaitForSeconds(0.05f);
         }
+        destiny.ResetPath();
+        path.gameObject.SetActive(true);
+        StartCoroutine("routine");
+        StopCoroutine("patrol");
     }
 
 }
