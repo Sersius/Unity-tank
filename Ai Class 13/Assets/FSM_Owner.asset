@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f945e777233a59f4aba40aeca29093a6, type: 3}
+  m_Name: FSM_Owner
+  m_EditorClassIdentifier: 
+  _serializedGraph: '{"version":2.85,"type":"NodeCanvas.StateMachines.FSM","translation":{"x":-1811.0,"y":-3337.0},"nodes":[{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"missingType":"NodeCanvas.Tasks.Actions.MakePatrol","recoveryState":"{\"$type\":\"NodeCanvas.Tasks.Actions.MakePatrol\",\"missingType\":\"NodeCanvas.Tasks.Actions.MakePatrol\"}","$type":"NodeCanvas.Framework.Internal.MissingAction"}]},"_position":{"x":2469.0,"y":3479.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"2"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"missingType":"NodeCanvas.Tasks.Actions.Alarm","recoveryState":"{\"$type\":\"NodeCanvas.Tasks.Actions.Alarm\",\"missingType\":\"NodeCanvas.Tasks.Actions.Alarm\"}","$type":"NodeCanvas.Framework.Internal.MissingAction"}]},"_position":{"x":2069.0,"y":3805.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"6"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"missingType":"NodeCanvas.Tasks.Actions.Back","recoveryState":"{\"$type\":\"NodeCanvas.Tasks.Actions.Back\",\"missingType\":\"NodeCanvas.Tasks.Actions.Back\"}","$type":"NodeCanvas.Framework.Internal.MissingAction"}]},"_position":{"x":2362.0,"y":3713.0},"$type":"NodeCanvas.StateMachines.ActionState","$id":"10"},{"_actionList":{"executionMode":"ActionsRunInParallel","actions":[{"missingType":"NodeCanvas.Tasks.Actions.DeactivateBGCurve","recoveryState":"{\"$type\":\"NodeCanvas.Tasks.Actions.DeactivateBGCurve\",\"missingType\":\"NodeCanvas.Tasks.Actions.DeactivateBGCurve\"}","$type":"NodeCanvas.Framework.Internal.MissingAction"}]},"_position":{"x":2195.0,"y":3416.0},"$type":"NodeCanvas.StateMachines.ActionState"}],"connections":[{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.StateMachines.FSMConnection"},{"_sourceNode":{"$ref":"10"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.StateMachines.FSMConnection"}],"primeNode":{"$ref":"2"},"localBlackboard":{"_name":"Local
+    Blackboard","_variables":{}}}'
+  _objectReferences: []
+  _deserializationFailed: 0
